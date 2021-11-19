@@ -476,3 +476,22 @@ img {
 .service_next_page_link:active {
   color: rgba(0, 186, 252, 0.6);
 }
+
+/* SERVICES STEPS */
+
+.steps_heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.steps_heading_text {
+  width: 675px;
+  margin: 0 auto;
+  font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+}
