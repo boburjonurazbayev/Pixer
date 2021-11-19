@@ -480,6 +480,8 @@ img {
 /* SERVICES STEPS */
 
 .steps_heading {
+  margin: 0;
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 24px;
   line-height: 31px;
@@ -489,9 +491,39 @@ img {
 .steps_heading_text {
   width: 675px;
   margin: 0 auto;
-  font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
 
-text-align: center;
+.steps_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.steps_item_first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps_item_first::before {
+  width: 300px;
+  height: 278px;
+  background-image: url(../images/step1.png);
+  background-repeat: no-repeat;
+  background-size: 300px 278px;
+  content: "";
+}
+
+.steps_item_info {
+  width: 500px;
+  margin-left: 35px;
+}
+
+.steps_item_heading {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
 }
