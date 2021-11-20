@@ -295,6 +295,7 @@ img {
 
 .services .container {
   margin-top: 136px;
+  margin-bottom: 55px;
 }
 
 .services_heading {
@@ -570,12 +571,60 @@ img {
 }
 
 .service_order_link_bottom {
+  display: block;
   width: 167px;
   margin: 0 auto;
-  padding: 8px 16px;
+  padding: 8px;
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 186, 252, 1);
   border-radius: 5px;
   text-decoration: none;
+  text-align: center;
+}
+
+.order {
+  background-color: rgba(0, 186, 252, 1);
+}
+
+.order .container {
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.order_heading {
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.order_text {
+  width: 715px;
+  margin: 0 auto;
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.order_form {
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+
+.order_input {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: rgba(243, 243, 243, 1);
+  border-color: rgba(243, 243, 243, 1);
+  border-radius: 5px;
 }

@@ -265,8 +265,58 @@
               </div>
             </li>
           </ul>
-          
+
           <a class="service_order_link_bottom" href="#">Buyurtma berish</a>
+        </div>
+      </section>
+
+      <!-- ORDER -->
+
+      <section class="order">
+        <div class="container">
+          <!-- ORDER HEADING -->
+
+          <h2 class="order_heading">Buyurtma berish</h2>
+
+          <p class="order_text">
+            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam
+            facilisis lacinia ex, eget sollicitudin massa pellentesque in.
+            Vivamus mattis eros at sem pulvinar
+          </p>
+
+          <!-- ORDER LABEL -->
+
+          <form class="order_form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="order_label">
+              <input 
+              class="order_input"
+              type="text"
+              name="username"
+              placeholder="Ismingiz"
+              required
+              >
+            </label>
+
+            <label class="order_label">
+              <input 
+              class="order_input"
+              type="tel"
+              name="tel_number"
+              placeholder="Telefon raqamingiz"
+              required
+              >
+            </label>
+
+           <select class="order_select" name="service_type" required>
+             <option class="order_option" value="make_website">Sayt tuzish</option>
+             <option class="order_option" value="make_tgbot">Telegram bot tuzish</option>
+             <option class="order_option" value="make_smm">SMM</option>
+             <option class="order_option" value="make_grdesign">Grafik dizayn</option>
+             <option class="order_option" value="make_crm_system">CRM tizimlar</option>
+           </select>
+
+           <button class="order_button" type="submit">Buyurtma berish</button>
+          </form>
         </div>
       </section>
     </main>
