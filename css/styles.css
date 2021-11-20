@@ -438,7 +438,7 @@ img {
   margin-bottom: 112px;
 }
 
-.service_order_link {
+.service_order_link_top {
   padding: 8px 16px;
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
@@ -567,4 +567,15 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.service_order_link_bottom {
+  width: 167px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 186, 252, 1);
+  border-radius: 5px;
+  text-decoration: none;
 }
